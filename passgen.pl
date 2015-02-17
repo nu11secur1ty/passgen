@@ -1,6 +1,6 @@
 #!/usr/bin/perl -W
 ###########################
-# copyright nu11secur1ty #
+# copyright nu11secur1ty  #
 ###########################
 use Term::ANSIColor;
 
