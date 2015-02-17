@@ -10,10 +10,10 @@ print color("red"),"Please press ENTER to generate your password...\n",color ("r
 	<>;
 	}
 my $password;
-   @my_char_list = (('A'..'Z'), ('a'..'z'), ('!','@','%','^'), (0..9));
-   $range_dis = $#my_char_list + 1;
+   @charlist = (('A'..'Z'), ('a'..'z'), ('!','@','%','^'), (0..9));
+   $range = $#charlist + 1;
 for (1..17) {
-   $password .= $my_char_list[int(rand($range_dis))];
+   $password .= $charlist[int(rand($range))];
 }
    print "Take your password:\n\n$password\n";
    
