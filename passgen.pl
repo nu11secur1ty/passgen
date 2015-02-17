@@ -16,3 +16,5 @@ for (1..17) {
    $password .= $my_char_list[int(rand($range_dis))];
 }
    print "Take your password:\n\n$password\n";
+   
+   
