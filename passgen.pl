@@ -1,7 +1,10 @@
 #!/usr/bin/perl -W
+
 ###########################
 # copyright nu11secur1ty  #
 ###########################
+use warnings;
+use strict;
 use Term::ANSIColor;
 
 print color("green"), "Welcome to program 'passgen'!\n",color("reset");
